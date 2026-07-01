@@ -5,6 +5,7 @@ description: Multi-agent architecture analysis, code review, accessibility, and 
 keywords: [architecture, code review, accessibility, requirements, code quality]
 author: Ovid
 version: 1.11.0
+iconURL: https://raw.githubusercontent.com/Ovid/paad-power/refs/heads/main/images/paad-icon.png
 ---
 
 # PAAD — Kiro Power
