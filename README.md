@@ -8,6 +8,8 @@ This repository is the **Kiro power** distribution of [PAAD](https://github.com/
 
 This is **ALPHA CODE**. It works great with many agentic IDEs, including Kiro, but it has not been fully-tested as a Kiro _power_. If you would like to install PAAD as a set of direct skills for Kiro, see the `README` for [PAAD](https://github.com/Ovid/paad).
 
+You can use them similarly to PAAD skills, but if you want to directly invoke them, you use a `#` instead of a `/`. For example: `#pushback` instead of `/pushback`.
+
 > **Generated — do not hand-edit.** Aside from this `README.md`, every file here (`POWER.md` and `steering/`) is generated from the canonical skills in the [`paad`](https://github.com/Ovid/paad) repository by `make kiro`. To change a skill, edit it in `paad` and regenerate; edits made directly here are overwritten.
 
 ## What it provides
@@ -36,7 +38,7 @@ Kiro reads the root `POWER.md` and the `steering/` directory. Each PAAD skill be
 
 This install path is newly added and experimental, so a real install test is appreciated.
 
-**No arguments.** Kiro slash commands take no arguments. Where a Claude Code skill accepts a path or scope (for example `/paad:agentic-architecture src/`), in the Kiro power you instead invoke the steering file and then state the scope in your chat message — for example, after invoking `agentic-architecture`, say "review `src/`". The skill reads the scope from your message rather than from a command argument.
+Unlike skills, Kiro slash commands take no arguments. They infer intent from the conversation. Where a Claude Code skill accepts a path or scope (for example `/paad:agentic-architecture src/`), in the Kiro power you instead invoke the steering file and then state the scope in your chat message — for example, while invoking `#agentic-architecture`, say "review `src/`". The skill reads the scope from your message rather than from a command argument.
 
 **Trust note.** Importing the power from a GitHub URL injects steering files that dispatch multi-agent workflows — the same trust boundary as installing the Claude Code plugin. Install it only from a source you trust.
 
