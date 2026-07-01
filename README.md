@@ -6,7 +6,9 @@
 
 This repository is the **Kiro power** distribution of [PAAD](https://github.com/Ovid/paad) — *Defense-in-Depth for AI-Assisted Development*. It packages PAAD's skills as Kiro **manual steering files** so you can install them into Kiro with a single **Import from GitHub**.
 
-> **Generated — do not hand-edit.** Every file here (`POWER.md` and `steering/`) is generated from the canonical skills in the [`paad`](https://github.com/Ovid/paad) repository by `make kiro`. To change a skill, edit it in `paad` and regenerate; edits made directly here are overwritten.
+This is **ALPHA CODE**. It works great with many agentic IDEs, including Kiro, but it has not been fully-tested as a Kiro _power_. If you would like to install PAAD as a set of direct skills for Kiro, see the `README` for [PAAD](https://github.com/Ovid/paad).
+
+> **Generated — do not hand-edit.** Aside from this `README.md`, every file here (`POWER.md` and `steering/`) is generated from the canonical skills in the [`paad`](https://github.com/Ovid/paad) repository by `make kiro`. To change a skill, edit it in `paad` and regenerate; edits made directly here are overwritten.
 
 ## What it provides
 
