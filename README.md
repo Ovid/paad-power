@@ -1,3 +1,5 @@
+**Update**: after much testing, this is project is put on pause. Kiro powers are interesting, but they are somewhat clumsy to use and calling the skills they use "steering" (which they're not) gets confusing when asking AI to work with real steering files. There were a few other nits, but for now, this project is not being updated.
+
 # paad-power — PAAD as a Kiro Power
 
 <p align="center">
